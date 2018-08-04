@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>signed-in</title>
+      <link rel="stylesheet" type="text/css" href="signed-in.css" />
+   </head>
+   <body>
+      <div id="error-div"></div>
+      <div id="user-info">
+         <span class="heading">Username: </span><span class="entry" id="username"></span><br />
+         <span class="heading">First Name: </span><span class="entry" id="firstname"></span><br />
+         <span class="heading">Last Name: </span><span class="entry" id="lastname"></span><br />
+      </div>
+      <button id="sign-out">sign out</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button id="update">Update Profile</button>
+      <hr />
+      <input type="text" placeholder="prefix" id="search-query"/>
+      <button id="search">Search Now!</button>
+      <div id="search-results"></div>
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+      <script src="signed-in.js"></script>
+   </body>
+</html>

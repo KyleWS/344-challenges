@@ -1,0 +1,9 @@
+#error-div {
+   color: red;
+   background-color: pink;
+}
+
+#success-div {
+   color: green;
+   background-color: lightgreen;
+}

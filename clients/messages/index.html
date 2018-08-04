@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>User Portal</title>
+      <link rel='stylesheet' style='text/css' href='index.css' />
+   </head>
+   <body>
+      <button id="test">debug</button>
+      <div id="error-div"></div>
+      <div id="success-div"></div>
+      <form id="new-account-form" method="POST">
+         <h3 id="new-account-header">New Account</h3>
+         <input type="text" placeholder="email" name="email" id="new-account-email"/><br />
+         <input type="password" placeholder="password" name="password" id="new-account-password"/><br />
+         <input type="password" placeholder="passwordConf" name="passwordConf" id="new-account-passwordConf"/><br />
+         <input type="text" placeholder="userName" name="userName" id="new-account-userName"/><br />
+         <input type="text" placeholder="firstName" name="firstName" id="new-account-firstName"/><br />
+         <input type="text" placeholder="lastName" name="lastName" id="new-account-lastName"/><br />
+      </form>
+      <button id="new-account-submit">sign up</button>
+      <!-- SIGN IN -->
+      <form id="existing-account-form" method="POST">
+         <h3 id="existing-account-header">Existing Account</h3>
+         <input type="text" placeholder="email" name="email" id="existing-account-email"/><br />
+         <input type="password" placeholder="password" name="password" id="existing-account-password"/><br />
+      </form>
+      <button id="existing-account-submit">sign in</button>
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+   </body>
+</html>

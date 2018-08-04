@@ -1,0 +1,19 @@
+// package handlers
+//
+// import (
+// 	"fmt"
+// 	"net/http"
+//
+// 	"github.com/info344-a17/challenges-KyleIWS/servers/gateway/sessions"
+// )
+//
+// func (ctx *Ctx) SearchHandler(w http.ResponseWriter, r *http.Request) {
+//
+// 	sess := SessionState{}
+// 	_, err := sessions.GetState(r, ctx.Key, ctx.SessionsStore, &sess)
+// 	if err != nil {
+// 		http.Error(w, fmt.Sprintf("Could not get session state %v", err), http.StatusUnauthorized)
+// 	}
+// 	//prefix := r.URL.Query().Get("q")
+// }
+// Literally ignore all this my bad
